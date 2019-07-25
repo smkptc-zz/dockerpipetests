@@ -1,4 +1,4 @@
-#test demo pipeline 
+//test demo pipeline 
 
 def name='cherrysri/hubtest'
 def tag='testing'
