@@ -37,7 +37,7 @@ node {
 //     env.PATH = "${mavenHome}/bin:${env.PATH}"
 // }
   stage("Setup"){
-	git poll: true, credentialsId: '8c3acf9a-80aa-446b-b1a1-95e1f78d267f', url: 'https://github.com/smkptc/dockerhub.git'	
+	git poll: true, credentialsId: '8c3acf9a-80aa-446b-b1a1-95e1f78d267f', url: 'https://github.com/smkptc/dockerpipetests.git'	
 }
   stage('Pull & Build'){
 
